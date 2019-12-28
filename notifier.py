@@ -9,7 +9,7 @@ import dateutil.parser
 
 # You need a file named private_key in order for this to work
 try:
-    private_file = open('private_key')
+    private_file = open('https://maker.ifttt.com/use/cKWE6w7mlGBG2edSNdLr3V')
 except FileNotFoundError:
     print('You must put your IFTTT private webhook key in a file named private_key')
     exit()
